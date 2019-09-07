@@ -1,0 +1,77 @@
+.titulo{
+  background-color: #EEA388;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+table{
+  margin-top: 0px;
+  width: 100%;
+}
+#receso{
+  background-color: #E86767;
+  color: white;
+}
+/*==========================================MATERIAS========================================*/
+.taller::after{
+  text-align: center;
+  content:"Taller de Investigación 1";
+  padding: inherit;
+}
+.web::after{
+  text-align: center;
+  content:"Programacion Web";
+  padding: inherit;
+}
+.redes::after{
+  text-align: center;
+  content:"Conmutacion y Enrutamiento de Redes";
+  padding: inherit;
+}
+.auto::after{
+  text-align: center;
+  content:"Lenguajes y Automatas 2";
+  padding: inherit;
+}
+.sistemas::after{
+  text-align: center;
+  content:"Sistemas Programables 1";
+  padding: inherit;
+}
+.prog::after{
+  text-align: center;
+  content:"Programacion Paralela y Concurrente";
+  padding: inherit;
+}
+
+/*==========================================DOCENTES========================================*/
+.jorge::after{
+  text-align: center;
+  content:"Dr. Jorge Manjarrez";
+  padding:inherit;
+}
+.aranda::after{
+  text-align: center;
+  content:"ISC Jesus Aranda Gamboa";
+  padding:inherit;
+}
+.cesar::after{
+  text-align: center;
+  content:"MGTI Cesar Landeros Soriano";
+  padding:inherit;
+}
+.chava::after{
+  text-align: center;
+  content:"ISC Salvador Acevedo ";
+  padding:inherit;
+}
+
+td{
+  text-align: center;
+}
+footer{
+  background-color: #EEA388;
+  text-align: center;
+  font-size: 15px;
+}
